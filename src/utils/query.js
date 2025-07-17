@@ -62,7 +62,6 @@ export const QUERY = gql`
       lastClaimTimestamp
       woolStolen
       woolEarned
-      totalSupply
     }
     users(orderBy: claimedWool, orderDirection: desc, first: 10) {
       id
