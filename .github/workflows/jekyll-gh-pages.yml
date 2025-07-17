@@ -30,6 +30,6 @@ jobs:
           NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: serve -s build
         env:
           NODE_OPTIONS: --openssl-legacy-provider
