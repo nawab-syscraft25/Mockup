@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://nawab-syscraft25.github.io/Mockup",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "@apollo/client": "^3.5.5",
     "@babel/core": "7.12.3",
