@@ -100,7 +100,7 @@
     "dev": "npm run client | npm run server",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build --openssl-legacy-provider",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
