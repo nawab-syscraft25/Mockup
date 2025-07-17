@@ -2,6 +2,7 @@
   "name": "Azumo-Game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nawab-syscraft25.github.io/Mockup",
   "dependencies": {
     "@apollo/client": "^3.5.5",
     "@babel/core": "7.12.3",
