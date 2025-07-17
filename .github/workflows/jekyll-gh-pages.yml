@@ -31,5 +31,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: serve -s build
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
+
