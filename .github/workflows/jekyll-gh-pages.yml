@@ -30,10 +30,6 @@ jobs:
           NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Deploy to GitHub Pages
-        run: |
-          git config --global user.email "nawabsyscraft@gmail.com"
-          git config --global user.name "nawab-syscraft25"
-          npm run deploy
+        run: npm run deploy
         env:
           NODE_OPTIONS: --openssl-legacy-provider
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
